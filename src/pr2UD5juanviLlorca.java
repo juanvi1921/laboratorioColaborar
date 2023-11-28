@@ -20,7 +20,6 @@ public class pr2UD5juanviLlorca {
                 case 2 -> ejercicio2();
                 case 3 -> ejercicio3();
                 case 4 -> ejercicio4();
-                case 5 -> ejercicio5();
                 case 0 -> // Salir
                         System.out.println("Adios!");
                 default -> // En otro caso
@@ -194,40 +193,5 @@ public class pr2UD5juanviLlorca {
         System.out.println("Nº de I's: " + i);
         System.out.println("Nº de O's: " + o);
         System.out.println("Nº de U's: " + u);
-    }
-    /**
-     5. Realiza un programa que lea una frase por teclado e indique si la frase es un
-        palíndromo o no (ignorando espacios y sin diferenciar entre mayúsculas y
-        minúsculas). Supondremos que el usuario solo introducirá letras y espacios (ni
-        comas, ni puntos, ni acentos, etc.). Un palíndromo es un texto que se lee igual de
-        izquierda a derecha que de derecha a izquierda.
-        Por ejemplo:
-            - Amigo no gima
-            - Dabale arroz a la zorra el abad
-            - Amo la pacífica paloma
-            - A man a plan a canal Panama
-     */
-    public static void ejercicio5() {
-        String frase = "", frase2 = "";
-        boolean validaFrase = true;
-        do {
-            System.out.println("Escriba una frase");
-            frase = sc.nextLine();
-            validaFrase = validaString(frase); //validar que son frases
-            if (!validaFrase) {
-                System.out.println("Por favor, introduzca una cadena con letras y no numeros");
-            }
-        } while (!validaFrase);
-        frase2 = frase.toLowerCase().replaceAll(" ", "");//Guardo la frase pasando a minuscula y quitando espacios
-        String[] array = frase2.split(""); //Gasto split para crear un array de strings. pongo "" para que me separe las letras.
-        String[] array2 = new String [array.length]; // Creo el array2 con el tamaño del primer array
-        for (int j = 0; j < array.length; j++) { //Bucle para recorrer el array y que sume las vocales comparando letra por letra
-            array2[j] = array[array.length - 1 - j]; //Esto para darle la vuelta a los valores y ponerlos en el segundo array
-        }
-        if (Arrays.equals(array2, array)) { //Clase arrays para compararlas.
-            System.out.println("Es un palindromo");
-        } else {
-            System.out.println("No es un palindromo");
-        }
     }
 }
