@@ -2,8 +2,10 @@
 
 Esta práctica se realizará por parejas, pero ambos alumnos deberán de entregar el PDF en aules. Se va a trabajar la colaboración en proyectos mediante GitHub.
 
-Nombre Alumno1: Juanvi Llorca Martiínez. 
-Nombre Alumno2:  
+Nombre Alumno1: Juanvi Llorca Martínez. 
+
+Nombre Alumno2: Hakeem Siddique 
+
 URL del repositorio: https://github.com/juanvi1921/laboratorioColaborar.git
 
 El alumno 1 deberá rellenar los apartados que aparece A1, y el alumnos 2 en A2.  
