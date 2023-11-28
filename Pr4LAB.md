@@ -2,9 +2,9 @@
 
 Esta práctica se realizará por parejas, pero ambos alumnos deberán de entregar el PDF en aules. Se va a trabajar la colaboración en proyectos mediante GitHub.
 
-Nombre Alumno1:  
+Nombre Alumno1: Juanvi Llorca Martiínez. 
 Nombre Alumno2:  
-URL del repositorio:
+URL del repositorio: https://github.com/juanvi1921/laboratorioColaborar.git
 
 El alumno 1 deberá rellenar los apartados que aparece A1, y el alumnos 2 en A2.  
 Las imágenes y este mismo archiuvo con su versión PDF deberán estar en GitHub.
@@ -39,8 +39,19 @@ Las imágenes y este mismo archiuvo con su versión PDF deberán estar en GitHub
     * Al final lo hemos subido mediante gitBash
 6. A1: Descarga el programa actual y modifica una parte.
 7. A2: Modifica la misma parte que A1 de manera que surja un coinflicto
-8. A1 y A2 : Subid los cambios y resolved el conflicto.
+
+    ![](imagenes/conflicto.jpg)
+
+8. A1 y A2 : Subid los cambios y resolved el conflicto. ver el ej 7.
 9. A1:Investigad sobre la herramienta "CodeWithMe".  
+    Es una herramienta de colaboración de JetBrains que permite a los desarrolladores trabajar juntos en tiempo real en los proyectos, es especialmente útil para equipos distribuidos que desean trabajar juntos de manera eficiente. Sus caracteristicas son:
+    
+    1. Colaboración en tiempo real.
+    2. Soporte para multiples lenguajes y entornos.
+    3. Acceso remoto seguro.
+    4. Funciones de colaboración avanzadas.
+    5. Controles de seguridad y privacidad.
+    6. Compatibilidad con herramientas de control de versiones.
 10. A2: Investigad sobre la herramienta "GitHubCopilot".
 
 Vídeos de ayuda:  
