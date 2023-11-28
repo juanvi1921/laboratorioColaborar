@@ -96,7 +96,7 @@ public class pr2UD5juanviLlorca {
             frase1 = sc.nextLine();
             validaFrase = validaString(frase1); //validar que son frases
             if (!validaFrase) {
-                System.out.println("Por favor, introduzca una cadena con letras y no numeros");
+                System.out.println("Acaba de producirse un error en el sistema");
             }
         } while (!validaFrase);
         do {

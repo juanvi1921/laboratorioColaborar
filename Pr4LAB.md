@@ -10,6 +10,9 @@ El alumno 1 deberá rellenar los apartados que aparece A1, y el alumnos 2 en A2.
 Las imágenes y este mismo archiuvo con su versión PDF deberán estar en GitHub.
 
 1. A1: Cread un repositorio "laboratorioColaborar" en GitHub (Ponedlo público).
+
+    ![](imagenes/repositorioCreado.jpg)
+
 2. A2: Investigad sobre como utilizar GIT desde IntelliJ para explicarlo a A1.
     * Primero hay que conectar intellij con git, vamos primero a File > Settings > Version Control > Git. Ahora donde esta Path to git executable dadle a TEST para pueda buscar automaticamene la version de git que tenemos.
     * Ahora nos dirigimos desde intelliJ File > Settings > Version Control > GitHub y añadiremos una cuenta  via GitHub. Esto abrira una ventana para que puedas autorizar la autentificación. Despues de aceptar si vuelves a intelliJ GitHub ya podras ver que tu cuenta esta vinculada en intelliJ.
@@ -18,7 +21,13 @@ Las imágenes y este mismo archiuvo con su versión PDF deberán estar en GitHub
     * Si quieres comprobar que el git se ha creado ve a la direccion del proyecto donde se creo el git y podras mirar si se creo el .git.
     * Ahora realizaremos un commit empezando en Git > Commit... Escribes una breve descripcion y seleccionas los archivos que quieras subir. Cuando todo este listo dadle a commit. (Esto hará que los archivos se añadan a las versiones de controles).
     * Ya cuando el commit este listo vuelve a Git > Push... Esto hara que aparezca una nueva pestaña donde tendras que definir en el master o origin el remote, que es donde añadirias el url de tu repositorio. Cuando añadas el url ya podras hacer el push.
+    
+    ![](imagenes/cuentaVinculada.jpg)
+
 3. A1: Subid una práctica de "Programación" desde IntelliJ
+
+    ![](imagenes/proyectoSubido.jpg)
+
 4. A2: Descargad el repositorio de A1.
     
     ![](imagenes/gitClone.png)
