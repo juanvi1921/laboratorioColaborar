@@ -96,7 +96,7 @@ public class pr2UD5juanviLlorca {
             frase1 = sc.nextLine();
             validaFrase = validaString(frase1); //validar que son frases
             if (!validaFrase) {
-                System.out.println("Por favor, introduzca una cadena con letras y no numeros");
+                System.out.println("No es valido porque esto es un numero, y tenia que ser una frase");
             }
         } while (!validaFrase);
         do {
@@ -109,7 +109,7 @@ public class pr2UD5juanviLlorca {
         } while (!validaFrase);
         if (frase1.equalsIgnoreCase(frase2)) {
             System.out.println("Las frases son iguales");
-        } else {
+        } else{
             System.out.println("Las frases no son iguales");
         }
     }
