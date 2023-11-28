@@ -52,8 +52,19 @@ Las imágenes y este mismo archiuvo con su versión PDF deberán estar en GitHub
     4. Funciones de colaboración avanzadas.
     5. Controles de seguridad y privacidad.
     6. Compatibilidad con herramientas de control de versiones.
+    
 10. A2: Investigad sobre la herramienta "GitHubCopilot".
 
+    Es un programador de pares de IA basado en un modelo de IA generativo desarrollado por GitHub, OpenAI y Microsoft, que ofrece sugerencias de estilo autocompletar a medida que programas. GitHub Copilot analiza el contexto del archivo que estás editando, así como los archivos relacionados, y ofrece sugerencias desde el editor de texto.
+    
+    Gracias a ello, ofrece varias ventajas como:
+    
+    1. Aumento de la productividad
+    2. Mejora de la calidad del código
+    3. Prototipos más rápidos
+    4. Recursos de aprendizaje
+    5. Facilita el aprendizaje
+    
 Vídeos de ayuda:  
 Subir proyecto desde GIT: https://www.youtube.com/watch?v=6WtA2dUDvPY  
 Clonar repositorio: https://www.youtube.com/watch?v=rcQBgm5vid0
