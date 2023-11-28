@@ -25,6 +25,9 @@ Las imágenes y este mismo archiuvo con su versión PDF deberán estar en GitHub
 
 5. A2: Haced modificaciones en el código y subidlo mediante IntelliJ.
     * Antes estaba el ejercicio 5 y ahora lo he borrado.
+    
+    ![](imagenes/push.png)
+    * Al final lo hemos subido mediante gitBash
 6. A1: Descarga el programa actual y modifica una parte.
 7. A2: Modifica la misma parte que A1 de manera que surja un coinflicto
 8. A1 y A2 : Subid los cambios y resolved el conflicto.
